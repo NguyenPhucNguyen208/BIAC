@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/singin.css">
-    <script defer src="../JS/signin.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style/signin.css')}}">
+    <script defer src="{{ url_for('static', filename = 'style/signin.css')}}"></script>
     <script src="https://kit.fontawesome.com/7d8592f4f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>ĐĂNG NHẬP</h1>
-        <form id="form" action="/">
+        <form id="form" action="/dangnhap" method="post">
           <div class="input-control">
               <input id="email" name="email" type="text" placeholder="Email">
               
@@ -49,7 +49,7 @@
           </div>
 
           <div class="linkdk">
-            <a  href="../HTML/signup.html">Đăng ký</a>
+            <a  href="../dangky">Đăng ký</a>
           </div>
         </form>  
 

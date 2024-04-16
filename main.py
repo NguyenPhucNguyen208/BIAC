@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify, redirect
+from flask import Flask, request, render_template, jsonify, redirect, url_for
 from config import app,db
 from models import Users
 
@@ -8,13 +8,30 @@ def hello():
 
 @app.route("/dangnhap", methods=["GET","POST"])
 def login(): 
+    if request.method == "POST" : 
+        email = request.form["email"]
+        pwd = request.form["password"]
+        found_user = Users.query.filter_by(email = email).first()
+        if found_user : 
+            email = found_user.email
+            password = found_user.pwd
+            if password == pwd : 
+                return jsonify({"message":"dangnhapthanhcong"}),200
+            else : 
+                return jsonify({"message":"sai mat khau"}),200
+        else : 
+            return jsonify({"message":"sai email"}),200
+    '''User = Users.query.all()
+    json_User = list(map(lambda x : x.to_json(),User))
+    data = jsonify({"user": json_User})
     email = request.json.get("email")
     pwd = request.json.get("pwd")
     if not email or not pwd : 
         return jsonify({"message": "information can't be null"}),400
     User = Users.query.all()
     json_User = list(map(lambda x : x.to_json(),User))
-    data = jsonify({"user": json_User})
+    data = jsonify({"user": json_User})'''
+    return render_template("signin.html")
     
             
 
@@ -37,9 +54,7 @@ def dang_ky():
             return jsonify({"message": str(e)}),400
     return render_template("signup.html")
 
-@app.route("/test")
-def test():
-    return render_template("signup.html")
+
 if __name__ == "__main__": 
     with app.app_context(): 
         db.create_all()
