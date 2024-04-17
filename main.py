@@ -54,6 +54,15 @@ def dang_ky():
             return jsonify({"message": str(e)}),400
     return render_template("signup.html")
 
+@app.route("/quenmatkhau", methods = ["GET","POST"])
+def quenmatkhau(): 
+    '''if request.method == "POST": 
+        email = request.form["email"]
+        found_user = Users.query.filter_by(email = email).first()
+        if found_user : '''
+
+    return render_template("forgetpass.html")
+
 
 if __name__ == "__main__": 
     with app.app_context(): 
