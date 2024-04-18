@@ -1,8 +1,8 @@
 body{
   width: 100%;
   height: 100vh;
-  margin-top: 100px;
-  background-image: url(../access/img/oops.png);
+  margin-top: 5vw;
+  background-image: url(../static/images/img/oops.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -13,11 +13,11 @@ body{
 h1{
   color: #0B437E;
   text-align: center;
-  font-size: 64px;
+  font-size: 3.2vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 120px;
+  margin-bottom: 6vw;
 }
 
 .box-control{
@@ -28,46 +28,53 @@ h1{
 
 .box{
   background-color: white;
-  margin: 100px ;
-  margin: 0px 550px 0px 550px;
+  margin: 5vw ;
+  margin: 0vw 27.5vw 0vw 27.5vw;
 
 }
 h2{
   color: rgba(11, 67, 126, 0.50);
   text-align: center;
-  font-size: 35px;
+  font-size: 1.75vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1px;
-  width: 696px;
-  height: 85px;
-  margin: 70px 0px 70px 0px;
+  letter-spacing: 0.05vw;
+  width: 34.8vw;
+  height: 4.25vw;
+  margin: 3.5vw 0vw 3.5vw 0vw;
   }
 
 button{
   display: flex;
-  width: 663.89px;
-  height: 87.099px;
+  width: 33.194vw;
+  height: 4.355vw;
   justify-content: center;
   background-color: #0B437E;
-  margin-bottom: 20px;
+  margin-bottom: 1vw;
 }
 
 .textnutdk{
   color: #FFF;
-  font-size: 24px;
+  font-size: 1.2vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.03vw;
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 1.25vw;
 }
 
 a{
   text-decoration: none;
 }
 
+.nho{
+  border-radius: 0.5vw;
+  border: 5px;
+}
 
+.cnho{
+  font-size:1vw;
+}

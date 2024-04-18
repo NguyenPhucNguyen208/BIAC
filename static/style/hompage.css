@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    text-decoration: none;
+    background-color: #0B437E;
+    padding: 2.5vw;
+}
+header ul.menu>li{
+    background-color: #0B437E;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03125vw;    
+    list-style-type: none;
+    font-size: 1.25vw;
+    cursor: pointer;
+    position: relative;
+}
+header ul.menu>li>ul{
+    position: absolute;
+    background-color: #0E2843;
+    list-style: none;
+    top:1.5vw;
+    width: 11vw;  
+    display: none;
+    padding: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+header ul.menu>li:hover>ul{
+    display: block;
+}
+header ul.menu>li>ul>li{
+    padding: 0.5vw;
+    border-bottom: 1px solid #fff;
+}
+header ul.menu>li>ul>li:hover{
+    background-color: #9FDFE4;
+}
+*{
+    box-sizing: border-box;
+}
+.Title{
+    padding: 0.5vw 0.25vw;
+    background-color: #9FDFE4;
+    justify-content: center;
+    display: center;
+    align-items: middle;
+    text-align: center;
+    font-size: 0.5vw;
+    width: 100vw;
+}
+.headline{
+    padding: 2.5vw 0;
+    color: #263238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03125vw;
+}
+.teamname{
+    color: #263238;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03125vw;
+}
+.statistics{
+    margin: 1.5vw 0;
+    text-align: center;
+    width: 100vw;
+    padding: 2vw;
+    column-count: 3;
+    padding: 0.5vw;
+    font-size: 1vw;
+}
+.users{
+    background-color: #FFD966;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1325vw;
+}
+.posts{
+    background-color: #00B0AF;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1325vw;
+}
+.groups{
+    background-color: #EE5B4A;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1325vw;
+}
+.questions{
+    margin-top: 10vw;
+    background-image: url('../static/images/Ellipse\ 3.png');
+    width: 96vw;
+    height: 100%;
+}
+.main{
+    padding: 5vw;
+    margin-top: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03125vw;
+}
+.sentences{
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3vw;
+    letter-spacing: 0.03125vw;
+    margin: 5vw 0 7.5vw 2.5vw;
+    padding: 0.5vw 0 1.5vw 0.75vw;
+    cursor: pointer;
+}
+.Linktext{
+    text-decoration: none;
+    color: #FFF;
+}
+#search-box{
+    background-color: #fff;
+    height: 1.75vw;
+    outline: none;
+    border-radius: 50px;
+}
+#search-box #search-btn{
+    background-color: #0B437E;
+    outline: none;
+    border-radius: 50%;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    width: 0;
+    padding: 0;
+}
+#search-box:hover #search-text{
+    width: 10vw;
+    padding: 0.5vw 0.75vw;
+}

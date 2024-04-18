@@ -1,8 +1,8 @@
 body{
   width: 100%;
   height: 100vh;
-  margin-top: 50;
-  background-image: url(../access/img/student.png);
+  margin-top: 2.5vw;
+  background-image: url(../static/images/img/student.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -13,11 +13,11 @@ body{
 .h1{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 5vw;
 }
 
 h1{
-  font-size: 80px;
+  font-size: 4vw;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -25,9 +25,9 @@ h1{
 .h2{
   display: flex;
   justify-content: center;
-  margin-right: 580px;
+  margin-right: 29vw;
   margin-top: 0;
-  margin-bottom: 200px;
+  margin-bottom: 10vw;
 }
 
 .nut{
@@ -38,8 +38,8 @@ h1{
   border-radius: 10px;
   border-style: solid;
 
-  margin: 0px 700px 0 700px;
-  padding: 30px ;
+  margin: 0vw 35vw 0 35vw;
+  padding: 1.5vw ;
   background-color: white;
 }
 
@@ -49,21 +49,25 @@ button{
 
   background-color: white;
 
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 700;
 
 
 }
 
 i{
-  font-size: 40px;
+  font-size: 2vw;
 }
 
 .libox{
   border: solid;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px gray ;
+  box-shadow: 0.15vw 0.15vw 0.15vw gray ;
   background-color: white;
 
-  padding: 20px 70px ;
+  padding: 1vw 3.5vw ;
+}
+
+.nho{
+  font-size: 1.6vw ;
 }

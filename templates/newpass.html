@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script defer src=""></script>
     <script src="https://kit.fontawesome.com/7d8592f4f0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'style/newpass.css') }}">
+    <link rel="stylesheet" href="../static/style/newpass.css">
 </head>
 <body>
-  <div class="h1">,<h1>ĐỔI MẬT KHẨU MỚI</h1></div>
+  <div class="h1"><h1>ĐỔI MẬT KHẨU MỚI</h1></div>
   <div class="h2"><div class="H2">*Mã OTP đã được gửi tới số điện thoại/email</div></div>
   <div class="container">
 
@@ -20,13 +20,13 @@
       <div class="input-box">
         <i class="fa-solid fa-lock"></i>
         <input type="password" placeholder="password">
-        <img src="{{ url_for('static', filename = 'images/eye-close-1.png')}}" alt="Hinh anh">
+        <img src="../static/images/img/eye-close-1.png" alt="Hinh anh">
       </div>
 
       <div class="input-box">
         <i class="fa-solid fa-lock"></i>
         <input type="password" placeholder="password">
-        <img src="{{ url_for('static', filename = 'images/eye-close-1.png')}}" alt="Hinh anh">
+        <img src="../static/images/img/eye-close-1.png" alt="Hinh anh">
       </div>
 
       <div class="ma">
@@ -35,7 +35,7 @@
       <button type="submit">Gửi</button>
 
     </form>
-    <a href="../dangnhap" >Quay trở về đăng nhập</a>
+    <a href="../templates/signin.html" class="nutqv">Quay trở về đăng nhập</a>
 
   </div>
 </body>

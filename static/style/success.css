@@ -1,8 +1,8 @@
 body{
   width: 100%;
   height: 100vh;
-  margin-top: 50;
-  background-image: url(../access/img/Success.png);
+  margin-top: 2.5vw;
+  background-image: url(../static/images/img/Success.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -13,15 +13,15 @@ body{
 .h1{
   display: flex;
   justify-content: center;
-  font-size: 45px;
+  font-size: 2.25vw;
   text-align: center;
-  margin: 150px 100px 70px 10px;
+  margin: 7.5vw 5vw 3.5vw 0.5vw;
 
 }
 
 img{
-  width: 1300px;
-  height: 1000px;
+  width: 65vw;
+  height: 50vw;
 }
 
 .pic{
@@ -40,13 +40,13 @@ button{
   border: 0;
   outline: 0;
   background-color: #0B437E;
-  padding: 10px 70px 10px 70px
+  padding: 0.5vw 3.5vw 0.5vw 3.5vw;
 
 }
 
 a{
   text-decoration: none;
   color: white;
-  font-size: 55px;
+  font-size: 2.75vw;
   font-weight: bold;
 }

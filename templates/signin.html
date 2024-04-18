@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'style/signin.css')}}">
-    <script defer src="{{ url_for('static', filename = 'style/signin.css')}}"></script>
+    <script defer src="../JS/signin.js"></script>
     <script src="https://kit.fontawesome.com/7d8592f4f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>ĐĂNG NHẬP</h1>
-        <form id="form" action="/dangnhap" method="post">
+        <form id="form" action="/">
           <div class="input-control">
               <input id="email" name="email" type="text" placeholder="Email">
               
@@ -34,7 +34,7 @@
               <button class ="dnnn"type="submit">ĐĂNG NHẬP</button>
           </div>
 
-          <hr color="black" width="900px" size="2px" align="center" />
+          <hr>
 
           <div class="signup">
             <button class="signup-gg">
@@ -53,8 +53,8 @@
           </div>
         </form>  
 
-          <!-- <img src="{{ url_for('static', filename = 'images/oops.png')}}" alt="Hinh anh">
-          <img src="{{ url_for('static', filename = 'images/oops.png')}}" alt="Hinh anh">  -->
+          <!-- <img src="../static/images/img/oop phai.png" alt="Hinh anh">
+          <img src="../static/images/img/oop trai.png" alt="Hinh anh">  -->
 
 
 
