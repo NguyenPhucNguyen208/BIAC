@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify, redirect, url_for
+from flask import Flask, request, render_template, jsonify, redirect, url_for, session
 from config import app,db
 from models import Users
 
@@ -16,6 +16,7 @@ def login():
             email = found_user.email
             password = found_user.pwd
             if password == pwd : 
+                session["email"] = email
                 return jsonify({"message":"dangnhapthanhcong"}),200
             else : 
                 return jsonify({"message":"sai mat khau"}),200
@@ -40,6 +41,8 @@ def dang_ky():
     '''User = Users.query.all()
     json_User = list(map(lambda x : x.to_json(),User))
     data = jsonify({"user": json_User})'''
+    if "useremail" in session: 
+        return redirect('/')
     if request.method == "POST" : 
         name = request.form["username"]
         email = request.form["email"]
