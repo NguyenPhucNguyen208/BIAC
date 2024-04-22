@@ -2,6 +2,13 @@ from flask import Flask, request, render_template, jsonify, redirect, url_for, s
 from config import app,db
 from models import Users
 
+@app.route("/hompage", methods = ["GET","POST"])
+def homepage(): 
+    if 'email' not in session : 
+        return redirect(url_for('dangnhap'))
+    
+    return render_template("homepage.html")
+
 @app.route("/")
 def hello():
     return render_template("index.html")
@@ -17,7 +24,7 @@ def login():
             password = found_user.pwd
             if password == pwd : 
                 session["email"] = email
-                return jsonify({"message":"dangnhapthanhcong"}),200
+                return redirect(url_for('homepage'))
             else : 
                 return jsonify({"message":"sai mat khau"}),200
         else : 
@@ -65,6 +72,8 @@ def quenmatkhau():
         if found_user : '''
 
     return render_template("forgetpass.html")
+
+
 
 
 if __name__ == "__main__": 
