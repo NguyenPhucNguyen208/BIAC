@@ -2,19 +2,19 @@ from flask import Flask, request, render_template, jsonify, redirect, url_for, s
 from config import app,db
 from models import Users
 
-@app.route("/hompage", methods = ["GET","POST"])
+@app.route("/homepage", methods = ["GET","POST"])
 def homepage(): 
-    if 'email' not in session : 
+    if 'email' in session : 
+        return render_template("homepage.html")
+    else : 
         return redirect(url_for('dangnhap'))
-    
-    return render_template("homepage.html")
 
 @app.route("/")
 def hello():
     return render_template("index.html")
 
 @app.route("/dangnhap", methods=["GET","POST"])
-def login(): 
+def dangnhap(): 
     if request.method == "POST" : 
         email = request.form["email"]
         pwd = request.form["password"]
@@ -44,7 +44,7 @@ def login():
             
 
 @app.route("/dangky", methods = ["POST","GET"])
-def dang_ky():
+def dangky():
     '''User = Users.query.all()
     json_User = list(map(lambda x : x.to_json(),User))
     data = jsonify({"user": json_User})'''
@@ -73,6 +73,12 @@ def quenmatkhau():
 
     return render_template("forgetpass.html")
 
+@app.route("/newspaper", methods = ["GET","POST"])
+def newspaper(): 
+    if "email" in session : 
+        return render_template("newspaper.html")
+    else : 
+        redirect(url_for('dangnhap'))
 
 
 

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/newspaper.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style/newspaper.css')}}">
     <title>Document</title>
 </head>
 <body class="container">
     <header>
         <ul class ="menu">
-            <li><a class="Linktext" href="../templates/homepage.html">Trang chủ</a></li>
-            <li><a class="Linktext" href="../templates/newspaper.html">Báo điện tử</a>
+            <li><a class="Linktext" href="../homepage">Trang chủ</a></li>
+            <li><a class="Linktext" href="../newspaper">Báo điện tử</a>
                 <ul>
                     <li><a href="../templates/club.html">Câu lạc bộ</a></li>
                     <li><a href="../templates/activities.html">Hoạt động</a></li>
@@ -35,16 +35,16 @@
             <li><a class="Linktext" href="../templates/aboutus.html">Chuyện của chúng mình</a></li>
             <li><form action="" id = "search-box">
                 <input type="text" id="search-text" placeholder="Bạn cần tìm gì thế?">
-                <button id="search-btn"><div class="find"><img src="../static/images/Interface Search.png" alt="" height="30px" width="30px"></div></button>
+                <button id="search-btn"><div class="find"><img src="{{ url_for('static', filename = 'images/Interface-Search.png')}}" alt="" height="30px" width="30px"></div></button>
             </form></li>
-            <li><div class="notification"><img src="../static/images/mdi_bell.png" alt="" height="60px"></div></li>
-            <li><div class="account"><img src="../static/images/Ellipse 23.png" alt="" height="60px"></div></li>
+            <li><div class="notification"><img src="{{ url_for('static', filename = 'images/mdi_bell.png')}}" alt="" height="60px"></div></li>
+            <li><div class="account"><img src="{{ url_for('static', filename = 'images/Ellipse_23.png')}}" alt="" height="60px"></div></li>
         </ul>
     </header>
     <div class="posts">
         <div class="welcome"><h1>NƠI ĐỂ BẠN THỬ SỨC VỚI BÁO CHÍ VÀ TRUYỀN THÔNG</h1></div>
         <div class="activities">
-            <div class="imgPost1"><img src="../static/images/hoi trai btx.png" alt="" width="100%"></div>
+            <div class="imgPost1"><img src="{{ url_for('static', filename = 'images/hoi trai btx.png')}}" alt="" width="100%"></div>
             <div class="information">
             <h3 class="title">HỘI TRẠI TRUYỀN THỐNG 9/1 LẦN THỨ XVI - NĂM 2024 - CỤM 1</h3>
             <h4 class="timeline">18 tháng 2 năm 2024</h4>
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="magazines">
-            <div class="imgPost2"><img src="../static/images/image 7 (1).png" alt="" width="100%"></div>
+            <div class="imgPost2"><img src="{{url_for('static', filename = 'images/image 7 (1).png')}}" alt="" width="100%"></div>
             <h3 class="title">[ HAC CASTING CALL GEN 4.5 ]</h3>
             <h4 class="timeline">22 tháng 2 năm 2024</h4>
             <button class="btnmove">
