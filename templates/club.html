@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/club.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style/club.css')}}">
     <title>Document</title>
 </head>
 <body>
     <header>
         <ul class ="menu">
             <li>Trang chủ</li>
-            <li><a class="Linktext" href="../templates/newspaper.html">Báo điện tử</a>
+            <li><a class="Linktext" href="../newspaper">Báo điện tử</a>
                 <ul>
-                    <li><a href="../templates/club.html">Câu lạc bộ</a></li>
+                    <li><a href="../club">Câu lạc bộ</a></li>
                     <li><a href="../templates/activities.html">Hoạt động</a></li>
                     <li><a href="">Nhật kí tạp chí</a></li>
                     <li><a href="">HĐTN-HN</a></li>
@@ -35,10 +35,10 @@
             <li><a class="Linktext" href="../templates/aboutus.html">Chuyện của chúng mình</a></li>
             <li><form action="" id = "search-box">
                 <input type="text" id="search-text" placeholder="Bạn cần tìm gì thế?">
-                <button id="search-btn"><div class="find"><img src="../static/images/Interface Search.png" alt="" height="30px" width="30px"></div></button>
+                <button id="search-btn"><div class="find"><img src="{{ url_for('static', filename = 'images/Interface-Search.png')}}" alt="" height="30px" width="30px"></div></button>
             </form></li>
-            <li><div class="notification"><img src="../static/images/mdi_bell.png" alt="" height="60px"></div></li>
-            <li><div class="account"><img src="../static/images/Ellipse 23.png" alt="" height="60px"></div></li>
+            <li><div class="notification"><img src="{{url_for('static',filename = 'images/mdi_bell.png')}}" alt="" height="60px"></div></li>
+            <li><div class="account"><img src="{{url_for('static', filename = 'images/Ellipse_23.png')}}" alt="" height="60px"></div></li>
         </ul>
         </header>
     <div id="content" class="container">
@@ -58,13 +58,13 @@
                 Vậy còn chần chờ gì nữa mà không nhanh tay điền form ngay nào! ☆
                 __________________________________
                 ˚୨୧⋆ Mọi thắc mắc các bạn vui lòng liên hệ page hoặc email clb: btxhac19@gmail.com</h3>
-                <div class="img"><img src="../static/images/HAC.png" alt="" width="850px"></div> 
+                <div class="img"><img src="{{ url_for('static', filename = 'images/HAC.png')}}" alt="" width="850px"></div> 
     </div>
     <div id="clb">
-            <p><div class ="avatar"><img src="../static/images/Group 55.png" alt="" width="35px" height="35px"> CLB Sắc màu - THPT Bùi Thị Xuân TPHCM</div></p>
-            <p><div class ="avatar"><img src="../static/images/Group 55.png" alt="" width="35px" height="35px"> HOME OF MIRTH</p>
-            <p><div class ="avatar"><img src="../static/images/Group 55.png" alt="" width="35px" height="35px"> Lib of BTX-Thư viện THPT Bùi Thị Xuân</p>
-            <p><div class ="avatar"><img src="../static/images/Group 55.png" alt="" width="35px" height="35px"> CLB AI Bùi Thị Xuân</p>
+            <p><div class ="avatar"><img src="{{ url_for('static', filename = 'images/Group 55.png')}}" alt="" width="35px" height="35px"> CLB Sắc màu - THPT Bùi Thị Xuân TPHCM</div></p>
+            <p><div class ="avatar"><img src="{{ url_for('static', filename = 'images/Group 55.png')}}" alt="" width="35px" height="35px"> HOME OF MIRTH</p>
+            <p><div class ="avatar"><img src="{{ url_for('static', filename = 'images/Group 55.png')}}" alt="" width="35px" height="35px"> Lib of BTX-Thư viện THPT Bùi Thị Xuân</p>
+            <p><div class ="avatar"><img src="{{ url_for('static', filename = 'images/Group 55.png')}}" alt="" width="35px" height="35px"> CLB AI Bùi Thị Xuân</p>
     </div>
     <div id="information">
         <h3>Thông tin sự kiện</h3>

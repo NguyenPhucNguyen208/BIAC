@@ -80,6 +80,12 @@ def newspaper():
     else : 
         redirect(url_for('dangnhap'))
 
+@app.route("/club", methods = ["GET","POST"])
+def club() : 
+    if "email" in session : 
+        return render_template("club.html")
+    else : 
+        redirect(url_for('dangnhap'))
 
 
 if __name__ == "__main__": 
