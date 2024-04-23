@@ -87,6 +87,12 @@ def club() :
     else : 
         redirect(url_for('dangnhap'))
 
+@app.route("/activities", methods = ["POST","GET"])
+def activities(): 
+    if "email" in session : 
+        return render_template('activities.html')
+    else : 
+        redirect(url_for('dangnhap'))
 
 if __name__ == "__main__": 
     with app.app_context(): 
