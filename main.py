@@ -94,6 +94,13 @@ def activities():
     else : 
         redirect(url_for('dangnhap'))
 
+@app.route("/aboutus", methods = ["POST","GET"])
+def aboutus(): 
+    if "email" in session : 
+        return render_template('aboutus.html')
+    else : 
+        redirect(url_for('dangnhap'))
+
 if __name__ == "__main__": 
     with app.app_context(): 
         db.create_all()
