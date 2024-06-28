@@ -1,0 +1,69 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin-top: 50;
+  background-image: url(../access/img/student.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.h2{
+  display: flex;
+  justify-content: center;
+  margin-right: 580px;
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+
+.nut{
+  display: flex;
+  justify-content: center;
+
+  border: solid;
+  border-radius: 10px;
+  border-style: solid;
+
+  margin: 0px 700px 0 700px;
+  padding: 30px ;
+  background-color: white;
+}
+
+button{
+  border: 0;
+  outline: 0;
+
+  background-color: white;
+
+  font-size: 30px;
+  font-weight: 700;
+
+
+}
+
+i{
+  font-size: 40px;
+}
+
+.libox{
+  border: solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gray ;
+  background-color: white;
+
+  padding: 20px 70px ;
+}

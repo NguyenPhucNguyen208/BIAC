@@ -1,0 +1,69 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+
+}
+.giua{
+   display: flex;
+   justify-content: center;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   background-color: white
+}
+.truong{
+    color: #0b437e;
+    font-size: 120px;
+    text-align: center;
+    margin:40px 0 10px 0;
+}
+.littleText{
+    text-align: center;
+    color: #0B437E;
+    font-size: 30px;
+    margin: 0 0 10 0;
+    opacity: 0.5;
+}
+
+.btnLogin{
+    color:#FFFFFF;
+    background-color: #0B437E;
+    padding: 15px;
+    width: 200px;
+    border-radius:10px;
+    margin: 10px 0px 0px 0px;
+}
+
+.cdn{
+    font-size: 20px;
+    margin: 4px 12px 4px 12px;
+    font-weight: bolder;
+}
+
+.linkText{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px 0 0 0;
+}
+
+.hinhgiua{
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.titledk{
+    color: #0b437e;
+    font-size: 100px;
+    text-align: center;
+    margin:44px 0 10px 0;
+}
+

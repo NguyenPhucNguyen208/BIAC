@@ -1,0 +1,114 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin-top: 50;
+  background-image: url(../access/img/Signin.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+}
+
+
+h1{
+  color: #0b437e;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50;
+}
+
+input{
+  outline: 0;
+  border: 0;
+  background-color: whitesmoke;
+  padding: 20px 200px 20px 200px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30;
+  background-color: whitesmoke;
+  border-radius: 10px;
+
+}
+
+.input-control{
+  display: flex;
+  justify-content: center;
+}
+
+.dn{
+  display: flex;
+  justify-content: center;
+  font-size: 23;
+  text-decoration-line: none;
+  margin-top: 0;
+  margin-bottom: 40;
+  color: black;
+}
+
+.signin{
+  display: flex;
+  justify-content: center;
+}
+
+.dnnn{
+  border: 0;
+  outline: 0;
+  font-size: 20;
+  padding: 10px 70px 10px 70px;
+  color: white;
+  font-weight: bold;
+  background-color: #0b437e;
+  border-radius: 10px;
+  padding: 25 75 25 75;
+  margin-bottom: 40;
+}
+
+.signup{
+  text-align: center;
+}
+
+.signup-gg{
+  border: 0;
+  outline: 0;
+  font-size: 20;
+  padding: 20px 70px 20px 70px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 40;
+  box-shadow: 3px 3px 3px gray;
+  margin-top: 40; 
+  
+}
+
+.signup-w-gg{
+  padding: 40;
+  text-align: center;
+}
+
+i{
+  size: 100px;
+  font-size: 40;
+  color: #0b437e;
+}
+
+.notk{
+  display: flex;
+  justify-content: center;
+  font-size: 25;
+  margin-bottom: 5;
+}
+
+.linkdk{
+  display: flex;
+  justify-content: center;
+  font-size: 20;
+  
+}
+
+a{
+  text-decoration: none;
+}

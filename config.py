@@ -8,4 +8,5 @@ CORS(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///School.db"
 app.config["SQLALCHEYMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "TechPioneer"
-db = SQLAlchemy(app)
+
+db = SQLAlchemy(app)     

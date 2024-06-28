@@ -1,0 +1,153 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin-top: 50;
+  background-image: url(../access/img/WEBLOGIN.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+}
+
+.circle {
+  background: lightgray;
+  border: 0em solid #0F1C3F;
+  border-radius: 50%;
+  height: 16em;
+  width: 16em;
+  position: absolute;
+  left: 1400px;
+  top: 100px;
+}
+
+img{
+  position: absolute;
+  width: 75px;
+  height: 70px;
+  left: 1560px;
+  top: 300px;
+
+  border: solid;
+  border-radius: 50%;
+  border-color: none;
+  background-color: darkblue;
+}
+
+.name{
+  position: relative;
+  top: 100px;
+  left: 1580px;
+  
+  font-size: 20px;
+  font-weight: bold;
+  color: #0B437E;
+}
+
+
+.containerbox{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.div_left1{
+  width: 300px;
+  float: left;
+  
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  
+  
+}
+  
+.div_right1{
+  width: 300px;
+  
+  float: left;
+  
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.container_swap2{
+  position: absolute;
+  top: 450px;
+  left: 1250px;
+
+  font-weight: bold;
+
+}
+
+.hed1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 250px;
+}
+
+.nutcon{
+  padding: 0 20px 0 20px;
+}
+
+.tt{
+  width: 300px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left:  65px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.dkhoan{
+  width: 300px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left:  70px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.cnhan{
+  width: 300px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left:  70px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.dxuat{
+  width: 300px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left:  70px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.nut1{
+  padding: 25px;
+}
+
+i{
+  font-size: 25px;
+}
+
+.trang{
+  font-size: 25px;
+  margin-left: 145px;
+}

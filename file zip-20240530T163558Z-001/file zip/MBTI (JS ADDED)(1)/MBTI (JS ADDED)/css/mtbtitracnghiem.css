@@ -1,0 +1,77 @@
+*{
+  font-family: Manrope, serif;
+}
+
+h1{
+  color: #000;
+
+  font-size: 4.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1vw;
+  margin-top: 6.2vw;
+  text-align: center;
+  justify-content: center;
+}
+h2{
+  color: #000;
+  font-size: 1.5625vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04vw;
+  margin-top: 1.35vw;
+  text-align: center;
+  justify-content: center;
+}
+header{
+  z-index: 15;
+  justify-content: center;
+}
+
+.question {
+  z-index: 10;
+  margin-top: 7.71vw;
+  width: 68.02vw;
+  height: 20vw;
+  flex-shrink: 0;
+  border-radius: 1.25vw;
+  background: #FFF;
+  box-shadow: 0vw 0.2vw 0.2vw 0vw rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  margin-left: 15.625vw;
+  align-items: center; /* This line is added */
+  justify-content: space-between; /* This line is added */
+}
+h3{
+  color: #000;
+
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.05vw;
+  padding-left: 2.08vw;
+  padding-top: 2.29vw;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li{
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+button{
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 20px;
+
+  outline: 0;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+}

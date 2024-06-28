@@ -1,0 +1,348 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    justify-content: center;
+    background-color: #fff;
+}
+header{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    text-decoration: none;
+    background-color: #0B437E;
+    width: 1920px;
+    padding: 50px;
+}
+header ul.menu>li{
+    background-color: #0B437E;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.625px;    
+    list-style-type: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+header ul.menu>li>ul{
+    position: absolute;
+    background-color: #0E2843;
+    list-style: none;
+    top:30px;
+    width: 220px;  
+    display: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header ul.menu>li:hover>ul{
+    display: block;
+}
+header ul.menu>li>ul>li{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+header ul.menu>li>ul>li:hover{
+    background-color: #9FDFE4;
+}
+*{
+    box-sizing: border-box;
+}
+#search-box{
+    background-color: #fff;
+    height: 35px;
+    outline: none;
+    border-radius: 50px;
+}
+#search-box #search-btn{
+    background-color: #0B437E;
+    outline: none;
+    border-radius: 50%;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    width: 0;
+    padding: 0;
+}
+#search-box:hover #search-text{
+    width: 200px;
+    padding: 10px 15px;
+}
+.team{
+    background: rgba(64, 123, 255, 0.24);
+    color: #0B437E;
+    font-family: Montserrat;
+    font-size: 50px;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 1920px;
+}
+/* .Founder{
+    float: left;
+    border-radius: 24px;
+    background: rgba(120, 210, 216, 0.29);
+    width: 1800px;
+    margin: 100px 5px 0 5px;
+} */
+.TruongAn{
+    width: 1840px;
+    height: 752.56px;
+    background-image: url(../access/Group\ 121\ \(1\).png);
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Antitle{
+    border-radius: 24px;
+    background: #78cad8;
+    width: 600px;
+    margin-left: 700px;
+    padding: 40px;
+    margin-top: -60px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h3{
+    width: 712;
+    margin-left: 700px;
+    padding: 30px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ThanhBinh{
+    background-image: url(../access/Group\ 134.png);
+    width: 1840px;
+    height: 940px;
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Binhtitle{
+    border-radius: 24px;
+    background: #3B9A58;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 600px;
+    padding: 40px;
+    font-size: 25px;
+}
+h4{
+    padding: 40px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1020px;
+}
+.MinhHieu{
+    width: 1840px;
+    height: 850px;
+    background-image: url(../access/Group\ 136.png);
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Hieutitle{
+    border-radius: 24px;
+    background: #FF9797;
+    width: 600px;
+    margin-left: 700px;
+    padding: 40px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+.MinhKhanh{
+    background-image: url(../access/Minh\ Khánh.png);
+    width: 1842px;
+    height: 820px;
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Khanhtitle{
+    border-radius: 24px;
+    background: #BA68C8;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 600px;
+    padding: 40px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.TuanDat{
+    width: 1846px;
+    height: 850px;
+    background-image: url(../access/TuanDat.png);
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Dattitle{
+    border-radius: 24px;
+    background: #E98C4D;    
+    width: 600px;
+    margin-left: 700px;
+    padding: 40px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.HoangNgan{
+    background-image: url(../access/HoangNgan.png);
+    width: 1842px;
+    height: 770px;
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Ngantitle{
+    border-radius: 24px;
+    background: #FFC727;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 630px;
+    padding: 40px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.ManhKhang{
+    width: 1846px;
+    height: 820px;
+    background-image: url(../access/Group\ 137.png);
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Khangtitle{
+    border-radius: 24px;
+    background: #C3E5F3;    
+    width: 600px;
+    margin-left: 700px;
+    padding: 40px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.PhucNguyen{
+    background-image: url(../access/Group\ 140.png);
+    width: 1842px;
+    height: 920px;
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Nguyentitle{
+    border-radius: 24px;
+    background: #520207;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 630px;
+    padding: 40px;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.information{
+    color: var(--DARK-VARIATION, rgba(0, 0, 0, 0.70));
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.1%;
+    letter-spacing: 0.6px;
+    background-color: #D1F1F9;
+    width: 1920px;
+    padding: 100px;
+    margin-top: 100px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+h6{
+    color: #0B437E;
+    text-align: justify;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}

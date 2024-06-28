@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <title>Upload</title>
+  </head>
+  <body>
+    <div class="">
+      <!-- typing-area -->
+      <div class="">
+        <h1>type</h1>
+        <p
+          id="typing-area"
+          contenteditable="true"
+          placeholder="What's on your mind?"
+        >
+          Nhập nội dung ở đây...
+        </p>
+      </div>
+
+      <!-- doc-area -->
+      <div>
+        <h1>nhan file doc</h1>
+
+        <button id="d_click">Tải doc</button>
+        <input type="file" id="int-doc" hidden name="" />
+      </div>
+
+      <!-- img-area -->
+      <div>
+        <h1>nhan img</h1>
+        <div class="drag-area"></div>
+        <button id="i_click">Chọn file</button>
+        <input type="file" id="int-img" hidden name="" />
+      </div>
+    </div>
+    <div>
+      <h1>Gửi</h1>
+      <button onclick="submit()">Gửi</button>
+    </div>
+  </body>
+  <script src="{{url_for('static',filename='style/upload.js')}}"></script>
+</html>

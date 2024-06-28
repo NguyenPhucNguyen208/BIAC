@@ -1,0 +1,158 @@
+{
+	"question": [
+		{
+			"id question": "1",
+			"title": "Khi viết, bạn thích:",
+			"cau_a": "Viết theo hướng văn chương hơn",
+			"cau_b": "Viết theo số liệu, dữ liệu hơnư",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "2",
+			"title": "Bạn thấy mình là người nghiêng về kiểu nào nhiều hơn?",
+			"cau_a": "Thực tế",
+			"cau_b": "Sáng tạo",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "3",
+			"title": "Kiểu người nào sẽ thu hút bạn hơn?",
+			"cau_a": "Người thực tế và có lý lẽ",
+			"cau_b": "Người có trí tưởng tượng phong phú, độc đáo",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "4",
+			"title": "Với các công việc thông thường, bạn nghiêng về cách:",
+			"cau_a": "Làm theo cách thông thường (theo quy trình, quy luật, hướng dẫn,..)",
+			"cau_b": "Làm theo cách của riêng mình, một mình một ngựa",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "5",
+			"title": "Những sự kiện trong thực tế",
+			"cau_a": "Bản thân nó giải thích cho chính nó",
+			"cau_b": "Nó là bằng chứng giải thích cho các quy tắc, quy luật",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "6",
+			"title": "Đối với những quy ước, quy tắc thông thường trong trường hoặc cộng đồng, bạn :",
+			"cau_a": "Ít khi nghi ngờ những điều này",
+			"cau_b": "Thường xem xét lại tính đúng đắn của những điều đó",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "7",
+			"title": "Thường thì bạn là:",
+			"cau_a": "Người nhìn nhận vấn đề trên trải nghiệm thực tế",
+			"cau_b": "Người có khả năng tưởng tượng phong phú về mọi dự định, việc làm",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "8",
+			"title": "Cái đầu hay trái tim chi phối bạn nhiều hơn",
+			"cau_a": "Cái đầu",
+			"cau_b": "Trái tim",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "9",
+			"title": "Bạn có xu hướng tin tưởng vào:",
+			"cau_a": "Kinh nghiệm thực tế của mình",
+			"cau_b": "Linh cảm của mình (kể cả những việc chưa từng làm qua)",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "10",
+			"title": "Bạn đánh giá cao điều gì trong mình hơn:",
+			"cau_a": "Nhận thức tốt về các yếu tố thực tế",
+			"cau_b": "Có trí tưởng tượng phong phú, rực rỡ",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "11",
+			"title": "Bạn nghĩ tình huống nào tồi tệ hơn?",
+			"cau_a": "“Bay bổng trên mây”, viển vông, phi thực tế",
+			"cau_b": "Đơn điệu, không thay đổi",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "12",
+			"title": "Điều nào khiến bạn thấy thích thú hơn?",
+			"cau_a": "Những điều thực tế",
+			"cau_b": "Những ý tưởng khả thi",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "13",
+			"title": "Nếu là nhà văn, bạn nghĩ sẽ tốt hơn nếu viết về:",
+			"cau_a": "Viết chính xác những gì mình nghĩ, diễn đạt một cách rõ ràng, nghĩa trên mặt chữ",
+			"cau_b": "Diễn đạt bằng biện pháp so sánh, liên tưởng, ví von thâm sâu",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "14",
+			"title": "Những người có tầm nhìn xa/người lo xa:",
+			"cau_a": "Thường gây khó chịu, mất hứng ",
+			"cau_b": "Khá thú vị",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "15",
+			"title": "Theo bạn, trẻ em thường:",
+			"cau_a": "Chưa cố gắng đủ",
+			"cau_b": "Chưa vui chơi đủ",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "16",
+			"title": "Bạn thường có xu hướng đánh giá:",
+			"cau_a": "Xem người khác có thể làm được việc gì hữu ích",
+			"cau_b": "Xem người khác sẽ nghĩ và cảm nhận như thế nào",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "17",
+			"title": "Bạn hứng thú với việc gì hơn?",
+			"cau_a": "Sản xuất và phân phối",
+			"cau_b": "Thiết kế và nghiên cứu",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "18",
+			"title": "Bạn cho rằng mình thuộc tuýp người nào hơn?",
+			"cau_a": "Người thực tế",
+			"cau_b": "Người linh hoạt, khéo léo",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "19",
+			"title": "Khi là một leader cho team, điều gì khó khăn với bạn hơn?",
+			"cau_a": "Hiểu và chia sẻ với các thành viên khác",
+			"cau_b": "Phân chia công việc và điều hành thành viên để dự án chất lượng",
+			"cau_dung": "a"
+		}
+
+	]
+
+
+}

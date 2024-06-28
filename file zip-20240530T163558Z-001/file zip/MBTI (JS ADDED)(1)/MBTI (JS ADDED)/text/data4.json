@@ -1,0 +1,138 @@
+{
+  "question": [
+    {
+      "id_question": "1",
+      "title": "Bạn thích làm việc theo kiểu nào nhiều hơn?",
+      "cau_a": "Với deadlines rõ ràng",
+      "cau_b": "Tùy hứng, lúc nhiều lúc ít",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "2",
+      "title": "Bạn có khuynh hướng đưa ra các lựa chọn",
+      "cau_a": "Rất cẩn thận, suy xét rất nhiều khía cạnh",
+      "cau_b": "Phần nào theo cảm nhận, ưu tiên cái mình đang thích trước",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "3",
+      "title": "Phong cách của bạn nghiêng về hướng nào hơn?",
+      "cau_a": "Đúng giờ, nghiêm túc",
+      "cau_b": "Nhàn nhã, thoải mái",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "4",
+      "title": "Bạn cảm thấy không thoải mái khi có những việc:",
+      "cau_a": "Chưa hoàn thiện",
+      "cau_b": "Đã quá hoàn thiện và có thể không cần bạn làm nữa",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "5",
+      "title": "Bạn thích những điều:",
+      "cau_a": "Đã được sắp xếp, quyết định trước",
+      "cau_b": "Chưa xác định, chưa được quyết định",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "6",
+      "title": "Bạn tự thấy mình là người như thế nào với hầu hết mọi người:",
+      "cau_a": "Nghiêm túc, quyết đoán",
+      "cau_b": "Dễ gần, thoải mái",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "7",
+      "title": "Các sự kiện nên xảy ra theo hướng:",
+      "cau_a": "Được lựa chọn và cân nhắc kỹ lưỡng",
+      "cau_b": "Ngẫu nhiên và tự nhiên",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "8",
+      "title": "Bạn cảm thấy thoải mái hơn khi",
+      "cau_a": "Unbox đồ đã mua về",
+      "cau_b": "Đang shopping",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "9",
+      "title": "Theo bạn, khả năng nào đáng khâm phục hơn ?",
+      "cau_a": "Khả năng tổ chức và làm việc có phương pháp",
+      "cau_b": "Khả năng thích ứng và xoay xở trước mọi tình huống",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "10",
+      "title": "Bạn đề cao tố chất nào hơn?",
+      "cau_a": "Sự chắc chắn",
+      "cau_b": "Sự cởi mở",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "11",
+      "title": "Bạn cảm thấy thoải mái hơn khi làm các công việc theo dạng:",
+      "cau_a": "Được giao trọn gói, bàn giao 100% khi hoàn thành",
+      "cau_b": "Công việc làm hàng ngày, theo lịch, từng bước hoàn thành công việc",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "12",
+      "title": "Bạn có xu hướng tìm kiếm những điều:",
+      "cau_a": "Theo trật tự, thứ tự",
+      "cau_b": "Ngẫu nhiên",
+			"cau_dung": "a"
+    },
+
+    {
+      "id_question": "13",
+      "title": "Bạn thường thích điều nào hơn?",
+      "cau_a": "Một tuyên bố chắc nịch, không thay đổi",
+      "cau_b": "Một tuyên bố dự kiến, có thể thay đổi",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "14",
+      "title": "Bạn thấy thoải mái hơn vào lúc:",
+      "cau_a": "Trước khi đưa ra quyết định",
+      "cau_b": "Sau khi đưa ra quyết định",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "15",
+      "title": " Bạn thích:",
+      "cau_a": "Đảm bảo rằng mọi việc được chuẩn bị, thu xếp sẵn sàng",
+      "cau_b": "Để mọi việc diễn ra tự nhiên",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "16",
+      "title": "Trong các mối quan hệ thì mọi việc:",
+      "cau_a": "Có thể thảo luận để giải quyết được",
+      "cau_b": "Diễn ra ngẫu nhiên và tùy theo điều kiện hoàn cảnh",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "17",
+      "title": "Tình huống nào sẽ lôi cuốn bạn hơn?",
+      "cau_a": "Tình huống rõ ràng, có kế hoạch từ trước",
+      "cau_b": "Tình huống chưa có kế hoạch, dựa trên hứng thú tại thời điểm quyết định",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "18",
+      "title": "Bạn là người có xu hướng nào hơn?",
+      "cau_a": "Theo thói quen",
+      "cau_b": "Hay thay đổi liên tục",
+      "cau_dung": "a"
+    },
+    {
+      "id_question": "19",
+      "title": "Bạn sẽ thích sự kiện nào hơn?",
+      "cau_a": "Sự kiện có lên kế hoạch trước",
+      "cau_b": "Sự kiện không có kế hoạch trước",
+      "cau_dung": "a"
+    }
+  ]
+}

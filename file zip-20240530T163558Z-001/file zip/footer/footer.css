@@ -1,0 +1,127 @@
+/*footer begin*/
+.footer1{
+    background-color: white;
+    height:30vw;
+}
+.nhom{
+    width:40vw;
+    position: relative;
+    left:-2vw;
+    z-index: 10;
+}
+.ftieude{
+    position: relative;
+    top:-14.799vw;   /*-275*/
+    left:-25.898vw;  /*-435*/
+    margin: 0 0 0.67267vw 0;
+}
+.cot1{
+    position:relative;
+    top:-6.7267vw;
+    left:26.907vw;
+    display:inline;
+}
+.footer2{
+    background-color: #115BA9;
+    height:5.7177vw;
+    margin:-2.0516vw 0 0 0;
+    position: relative;
+    bottom:0vw;
+    z-index: 20;
+}
+.mail{
+    width:3vw;
+    position: relative;
+    left:41vw;
+    top:-20vw;
+    margin: 0 0.67267vw 0 0;
+}
+.cmail{
+    position: relative;
+    left:41vw;
+    top:-20.6666vw;
+    font-weight:bolder;
+    font-size: 1.009vw;
+}
+.locate{
+    width:3vw;
+    position: relative;
+    left:41vw;
+    top:-15.6666vw;
+    margin: 0 0.67267vw 0 0;
+}
+.cdiachi{
+    position: relative;
+    left:41vw;
+    top:-16.6666vw;
+    font-size: 1.009vw;
+    font-weight:bolder;
+}
+.link{
+    width:3vw;
+    position: relative;
+    left:41vw;
+    top:-10.3333vw;
+    margin: 0 0.67267vw 0 0;
+
+}
+.clink{
+    position: relative;
+    top: -11.3333vw;
+    left:41vw;
+    font-size: 1.009vw;
+}
+.disappear{
+    height:0vw;
+}
+.ftieude2{
+    position: relative;
+    top:-24.889vw;
+    left:80.72vw;
+}
+.chuyen{
+    position: relative;
+    top:-19.5vw;
+    left:80.72vw;
+    font-size: 1.009vw;
+}
+.bao{
+    position: relative;
+    top:-14.5vw;
+    left:80.72vw;
+    font-size: 1.009vw;
+}
+.hoi{
+    position: relative;
+    top: -9.4vw;
+    left:80.72vw;
+    font-size: 1.009vw;
+}
+.logo{
+    position: relative;
+    top: 15.5vw;
+    left:92.155vw;
+    font-size: 1.009vw;
+    width:5.7177vw;
+}
+.duoi{
+    position: relative;
+    top:16.3vw;
+    width:10.09vw;
+    left:31.817vw;
+    z-index: 1;
+}
+.tren{
+    position: relative;
+    width:10.09vw;
+    left:72.648vw;
+    top:-0.26907vw;
+}
+.cuoi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.018vw;
+}
+/*footer end*/

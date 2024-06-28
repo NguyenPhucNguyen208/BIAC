@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    justify-content: center;
+    background-color: #fff;
+}
+header{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+}
+header ul.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    text-decoration: none;
+    background-color: #0B437E;
+    width: 1920px;
+    padding: 50px;
+}
+header ul.menu>li{
+    background-color: #0B437E;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.625px;    
+    list-style-type: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+header ul.menu>li>ul{
+    position: absolute;
+    background-color: #0E2843;
+    list-style: none;
+    top:30px;
+    width: 220px;  
+    display: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header ul.menu>li:hover>ul{
+    display: block;
+}
+header ul.menu>li>ul>li{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+header ul.menu>li>ul>li:hover{
+    background-color: #9FDFE4;
+}
+*{
+    box-sizing: border-box;
+}
+#search-box{
+    background-color: #fff;
+    height: 35px;
+    outline: none;
+    border-radius: 50px;
+}
+#search-box #search-btn{
+    background-color: #0B437E;
+    outline: none;
+    border-radius: 50%;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    width: 0;
+    padding: 0;
+}
+#search-box:hover #search-text{
+    width: 200px;
+    padding: 10px 15px;
+}
+#title{
+    color: #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.475px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 70px;
+}
+.rules{
+    border: solid;
+    border-radius: 20px;
+    padding: 90px;
+    width: 1820px;
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin: 400px 0 0 50px;
+}
+#complain{
+    float:right;
+    margin-top: 70px;
+    margin-right: 50px;
+}

@@ -1,0 +1,77 @@
+{
+	"question": [
+		{
+			"id question": "1",
+			"title": "Tại một buổi sự kiện ở trường, bạn sẽ",
+			"cau_a": "Giao tiếp với nhiều người, kể cả người lạ",
+			"cau_b": "Chỉ giao tiếp với với một số ít người mà bạn đã quen",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "2",
+			"title": "Trong các mối quan hệ xã hội (tình cảm, drama, confession), bạn thường",
+			"cau_a": "Luôn nắm bắt kịp thời thông tin về các vấn đề của mọi người",
+			"cau_b": "Thường biết thông tin sau những người khác",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "3",
+			"title": "Khi nói chuyện điện thoại, bạn:",
+			"cau_a": "Cứ gọi bình thường",
+			"cau_b": "Nghĩ kĩ những điều sẽ nói",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "4",
+			"title": "Trong lớp với những bạn chưa thân lắm, bạn là người:",
+			"cau_a": "Khởi xướng các câu chuyện",
+			"cau_b": "Đợi người khác bắt chuyện với mình",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "5",
+			"title": "Khi phải tương tác với người khác ở các tình huống và vấn đề mới lạ, không thường gặp, bạn thường:",
+			"cau_a": "Thấy phấn chấn và hào hứng",
+			"cau_b": "Cảm thấy mệt mỏi",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "6",
+			"title": "Bạn thích kiểu nào hơn?",
+			"cau_a": "Nhiều bạn bè ở mức độ xã giao",
+			"cau_b": "Một vài người bạn thân",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "7",
+			"title": "Bạn có thấy mình:",
+			"cau_a": "Dễ dàng bắt chuyện và kéo dài cuộc trò chuyện với người mới gặp",
+			"cau_b": "Khó mà trò chuyện nhiều với những người mới quen",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "8",
+			"title": "Khi giáo viên kêu gọi một người hỗ trợ, bạn sẽ:",
+			"cau_a": "Là người đầu tiên xung phong hỗ trợ",
+			"cau_b": "Hi vọng sẽ có bạn khác làm mà không phải mình đầu tiên",
+			"cau_dung": "a"
+		},
+
+		{
+			"id question": "9",
+			"title": "Bạn có xu hướng nào hơn?",
+			"cau_a": "Là người dễ tiếp cận, hòa nhã, dễ nói chuyện",
+			"cau_b": "Ở mức độ nào đó là người kín đáo",
+			"cau_dung": "a"
+		}
+	]
+
+
+}

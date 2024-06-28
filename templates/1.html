@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'style/mbtiquestion.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Trắc Nghiệm MBTI
+        </h1>
+        <h2>
+            Chọn câu trả lời giống với bạn nhất
+        </h2>
+    </header>
+    <div class="question">
+        <h3>
+            Câu 1: Tại một buổi sự kiện ở trường, bạn sẽ
+        </h3>
+        <form method="post">
+            <button class="d" id="a" name="a" type="submit" value="a">
+                Giao tiếp với nhiều người, kể cả người lạ
+            </button>
+        </form>
+        <form method="post">
+            <button class="e" id="a" name="b" type="submit" value="b">
+                Chỉ giao tiếp với với một số ít người mà bạn đã quen
+            </button>
+        </form>
+    </div>
+</body>

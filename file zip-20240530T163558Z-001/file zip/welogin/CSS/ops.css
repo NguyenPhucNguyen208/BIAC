@@ -1,0 +1,73 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  background-image: url(../access/img/oops.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+}
+
+h1{
+  color: #0B437E;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 120px;
+}
+
+.box-control{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box{
+  background-color: white;
+  margin: 100px ;
+  margin: 0px 550px 0px 550px;
+
+}
+h2{
+  color: rgba(11, 67, 126, 0.50);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  width: 696px;
+  height: 85px;
+  margin: 70px 0px 70px 0px;
+  }
+
+button{
+  display: flex;
+  width: 663.89px;
+  height: 87.099px;
+  justify-content: center;
+  background-color: #0B437E;
+  margin-bottom: 20px;
+}
+
+.textnutdk{
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+

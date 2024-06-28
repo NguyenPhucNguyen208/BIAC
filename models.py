@@ -13,4 +13,15 @@ class Users(db.Model) :
             "email" : self.email,
             "pwd" : self.pwd
                 }
-        
+class Image(db.Model): 
+    belong_to = db.Column(db.Integer, nullable = False)
+    id = db.Column(db.Integer, primary_key = True)
+    name = db.Column(db.Integer, unique = True, nullable = False)
+    content = db.Column(db.LargeBinary, nullable = False)
+
+class Writer(db.Model): 
+    id = db.Column(db.Integer, primary_key = True)
+    belong_to = db.Column(db.Integer, nullable = False)
+    name = db.Column(db.String(144),nullable = True)
+    article = db.Column(db.Text(140))
+

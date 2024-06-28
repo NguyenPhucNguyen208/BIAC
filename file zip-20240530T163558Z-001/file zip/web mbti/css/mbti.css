@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10.36vw;
+    text-decoration: none;
+    background-color: #0B437E;
+    margin: 0;
+}
+.g{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 36.46vw;
+    line-height: normal;
+    letter-spacing: 0.03vw;    
+    list-style-type: none;
+    padding: 3.125vw 0;
+    cursor: pointer;
+}
+.Linktext{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 36.46vw;
+    line-height: normal;
+    letter-spacing: 0.03vw;    
+    list-style-type: none;
+    padding: 3.125vw 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.a{
+    width: 4.6875vw;
+    height: 4.6875vw;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.b{
+    width: 26.04vw;
+    height: 35.05vw;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 14.48vw ;
+    margin-left: 7.86vw;
+    z-index: 10;
+    position: absolute;
+}
+.c{
+    width: 24.79vw;
+    height: 32.4vw;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 14.48vw ;
+    margin-left: 43.59vw;
+    z-index: 5;
+    position: absolute;
+}

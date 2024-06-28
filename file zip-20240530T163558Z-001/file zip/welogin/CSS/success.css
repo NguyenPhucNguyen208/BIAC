@@ -1,0 +1,52 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin-top: 50;
+  background-image: url(../access/img/Success.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-align: center;
+  margin: 150px 100px 70px 10px;
+
+}
+
+img{
+  width: 1300px;
+  height: 1000px;
+}
+
+.pic{
+  justify-content: center;
+  display: flex;
+}
+
+.nut{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+button{
+  border: 0;
+  outline: 0;
+  background-color: #0B437E;
+  padding: 10px 70px 10px 70px
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}

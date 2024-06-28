@@ -1,0 +1,141 @@
+{
+	"question": [
+			{
+				"id_question": "1",
+				"title": "Điều gì sau đây làm bạn ấn tượng hơn? Ví dụ như bạn thích giáo viên bạn là người…",
+				"cau_a": "Nguyên tắc",
+				"cau_b": "Cảm xúc",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "2",
+				"title": "Khi quyết định việc gì đó, bạn thường hay dựa vào:",
+				"cau_a": "Xem xét nhiều khía cạnh vấn đề",
+				"cau_b": "Tin vào trực giác, phán đoán của mình",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "3",
+				"title": "Khi đánh giá hoặc phán xét người khác, bạn thường hay dựa vào điều gì?",
+				"cau_a": "Tiêu chuẩn kép và nguyên tắc",
+				"cau_b": "Hoàn cảnh của mỗi người",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "4",
+				"title": "Khi tiếp cận, tiếp xúc người khác, bạn nghiêng về hướng nào hơn?",
+				"cau_a": "Tiếp cận theo hướng khách quan",
+				"cau_b": "Tiếp cận theo hướng sử dụng trải nghiệm cá nhân",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "5",
+				"title": "Điều gì lôi cuốn bạn hơn?",
+				"cau_a": "Tính nhất quán của tư duy, suy nghĩ",
+				"cau_b": "Sự hòa hợp trong các mối quan hệ của con người",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "6",
+				"title": "Bạn cảm thấy thoải mái hơn khi đưa ra:",
+				"cau_a": "Những đánh giá, nhận xét một cách logic",
+				"cau_b": "Những đánh giá, nhận xét một cách có ý nghĩa, ",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "7",
+				"title": "Bạn thường là người có:",
+				"cau_a": "Cái đầu lạnh",
+				"cau_b": "Trái tim nóng",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "8",
+				"title": "Điều nào thì tồi tệ hơn?",
+				"cau_a": "Không công bằng",
+				"cau_b": "Tàn nhẫn",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "9",
+				"title": "Khi đưa ra các quyết định, bạn sẽ thấy thoải mái hơn khi dựa trên:",
+				"cau_a": "Các tiêu chuẩn",
+				"cau_b": "Cảm xúc, cảm nhận",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "10",
+				"title": "Bạn tự thấy mình nghiêng về tính cách nào hơn ?",
+				"cau_a": "Cứng rắn",
+				"cau_b": "Nhẹ nhàng",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "11",
+				"title": "Bạn cảm thấy thoải mái hơn khi:",
+				"cau_a": "Thảo luận kỹ lưỡng về một vấn đề (quá trình)",
+				"cau_b": "Thống nhất được hướng giải quyết cho một vấn đề (kết quả)",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "12",
+				"title": "Cái đầu hay trái tim chi phối bạn nhiều hơn",
+				"cau_a": "Cái đầu",
+				"cau_b": "Trái tim",
+				"cau_dung": "a"
+			},
+
+			{
+				"id_question": "13",
+				"title": "Lời khen nào giá trị hơn?",
+				"cau_a": "Đó là một người có suy nghĩ rất logic",
+				"cau_b": "Đó là một người rất tình cảm, tinh tế",
+				"cau_dung": "a"
+			},
+
+			{
+				"id_question": "14",
+				"title": "Lời khen nào giá trị hơn?",
+				"cau_a": "Đó là một người có suy nghĩ rất logic",
+				"cau_b": "Đó là một người rất tình cảm, tinh tế",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "15",
+				"title": "Bạn thích mình có tố chất nào hơn?",
+				"cau_a": "Kiên định, vững vàng",
+				"cau_b": "Toàn tâm, cống hiến",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "16",
+				"title": "Theo bạn ai là người đáng được khen ngợi hơn?",
+				"cau_a": "Một người giàu lý trí",
+				"cau_b": "Một người giàu cảm xúc",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "17",
+				"title": "Bạn có xu hướng hành xử:",
+				"cau_a": "Công bằng, vô tư",
+				"cau_b": "Thông cảm, đồng cảm",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "18",
+				"title": "Điều gì có vẻ sẽ là một lỗi lớn hơn?",
+				"cau_a": "Quá nồng nhiệt, thiết tha",
+				"cau_b": "Quá khách quan, thờ ơ",
+				"cau_dung": "a"
+			},
+			{
+				"id_question": "19",
+				"title": "Về cơ bản, bạn sẽ đánh giá mình là người thế nào?",
+				"cau_a": "Thiết thực, ít bị chi phối bởi tình cảm",
+				"cau_b": "Đa cảm",
+				"cau_dung": "a"
+			}
+	]
+
+
+}
